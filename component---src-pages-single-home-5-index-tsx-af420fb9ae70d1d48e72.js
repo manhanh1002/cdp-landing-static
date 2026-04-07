@@ -1,0 +1,229 @@
+"use strict";
+(self["webpackChunkesoft_gatsby"] = self["webpackChunkesoft_gatsby"] || []).push([[1119],{
+
+/***/ 7935:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2711);
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7294);
+/* harmony import */ var _Loader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(4886);
+const BasicLayout=_ref=>{let{children}=_ref;(0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{aos__WEBPACK_IMPORTED_MODULE_0___default().init();},[]);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react__WEBPACK_IMPORTED_MODULE_1__.Suspense,{fallback:/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Loader__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,null)},children));};/* harmony default export */ __webpack_exports__.Z = (BasicLayout);
+
+/***/ }),
+
+/***/ 6230:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  Z: function() { return /* binding */ components_Navbar; }
+});
+
+// EXTERNAL MODULE: ./src/assets/img/logo/header-logo2.png
+var header_logo2 = __webpack_require__(4023);
+// EXTERNAL MODULE: ./src/hooks/useScrollEvent.ts
+var useScrollEvent = __webpack_require__(8007);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(4160);
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(7294);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Container.js
+var Container = __webpack_require__(682);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Row.js
+var Row = __webpack_require__(4051);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Col.js
+var Col = __webpack_require__(1555);
+// EXTERNAL MODULE: ./node_modules/react-icons/fa6/index.mjs
+var fa6 = __webpack_require__(6204);
+// EXTERNAL MODULE: ./src/assets/img/logo/header-logo1.png
+var header_logo1 = __webpack_require__(3033);
+// EXTERNAL MODULE: ./src/hooks/useToggle.ts
+var useToggle = __webpack_require__(8708);
+// EXTERNAL MODULE: ./node_modules/react-icons/fi/index.mjs
+var fi = __webpack_require__(2777);
+// EXTERNAL MODULE: ./node_modules/react-icons/sl/index.mjs
+var sl = __webpack_require__(6977);
+// EXTERNAL MODULE: ./src/components/layout/Topbar/component/MobileMenu.tsx
+var MobileMenu = __webpack_require__(9904);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/MobileTop.tsx
+const MobileTop=()=>{const{isOpen,toggle}=(0,useToggle/* default */.Z)();const sidebarRef=(0,react.useRef)(null);(0,react.useEffect)(()=>{const handleClickOutside=event=>{if(isOpen&&sidebarRef.current&&!sidebarRef.current.contains(event.target)){toggle();}};document.addEventListener('mousedown',handleClickOutside);return()=>document.removeEventListener('mousedown',handleClickOutside);},[isOpen,toggle]);return/*#__PURE__*/react.createElement("div",null,/*#__PURE__*/react.createElement("div",{className:"mobile-header mobile-header3 d-block d-lg-none "},/*#__PURE__*/react.createElement(Container/* default */.Z,{fluid:true},/*#__PURE__*/react.createElement(Col/* default */.Z,{xs:12},/*#__PURE__*/react.createElement("div",{className:"mobile-header-elements"},/*#__PURE__*/react.createElement("div",{className:"mobile-logo"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/home-1"},/*#__PURE__*/react.createElement("img",{src:header_logo2/* default */.Z,alt:""}))),/*#__PURE__*/react.createElement("div",{onClick:toggle,className:"mobile-nav-icon"},/*#__PURE__*/react.createElement(fa6/* FaBarsStaggered */.EgE,null)))))),/*#__PURE__*/react.createElement("div",{ref:sidebarRef,className:"mobile-sidebar mobile-sidebar4  d-block d-lg-none "+(isOpen?'mobile-menu-active':'')},/*#__PURE__*/react.createElement("div",{className:"logo-m"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/home-1"},/*#__PURE__*/react.createElement("img",{src:header_logo1/* default */.Z,alt:""}))),/*#__PURE__*/react.createElement("div",{onClick:toggle,className:"menu-close"},/*#__PURE__*/react.createElement(fa6/* FaXmark */._0w,null)),/*#__PURE__*/react.createElement("div",{className:"mobile-nav"},/*#__PURE__*/react.createElement(MobileMenu/* default */.Z,null),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"sidebar1-btn",to:"/contact"},/*#__PURE__*/react.createElement("span",null,"Book a Consultation"),/*#__PURE__*/react.createElement("span",{className:"arrow"},/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null))),/*#__PURE__*/react.createElement("div",{className:"contact-infos"},/*#__PURE__*/react.createElement("h3",null,"Contact Info"),/*#__PURE__*/react.createElement("div",{className:"box"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(fi/* FiPhone */.tUt,null))),/*#__PURE__*/react.createElement("div",{className:"pera"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"tel:921-888-0022"},"921-888-0022"))),/*#__PURE__*/react.createElement("div",{className:"box"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(fa6/* FaRegEnvelope */.uWG,null))),/*#__PURE__*/react.createElement("div",{className:"pera"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"mailto:example@visafast.com"},"example@visafast.com")))),/*#__PURE__*/react.createElement("div",{className:"contact-infos"},/*#__PURE__*/react.createElement("h3",null,"Our Location"),/*#__PURE__*/react.createElement("div",{className:"box"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(sl/* SlLocationPin */.OxZ,null))),/*#__PURE__*/react.createElement("div",{className:"pera"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"55 East Birchwood Ave.Brooklyn, ",/*#__PURE__*/react.createElement("br",null),"New York 11201,United States")))),/*#__PURE__*/react.createElement("div",{className:"contact-infos"},/*#__PURE__*/react.createElement("h3",null,"Our Location"),/*#__PURE__*/react.createElement("ul",{className:"icon-list"},/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},/*#__PURE__*/react.createElement(fa6/* FaLinkedinIn */.BUd,null))),/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},/*#__PURE__*/react.createElement(fa6/* FaXTwitter */.LCd,null))),/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},/*#__PURE__*/react.createElement(fa6/* FaYoutube */.V2E,null))),/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},/*#__PURE__*/react.createElement(fa6/* FaInstagram */.Zf_,null))))))));};/* harmony default export */ var components_MobileTop = (MobileTop);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo1.jpg
+var demo1 = __webpack_require__(1326);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo2.jpg
+var demo2 = __webpack_require__(9086);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo3.jpg
+var demo3 = __webpack_require__(3142);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo4.jpg
+var demo4 = __webpack_require__(2127);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo5.jpg
+var demo5 = __webpack_require__(9648);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo6.jpg
+var demo6 = __webpack_require__(611);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo7.jpg
+var demo7 = __webpack_require__(1367);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo8.jpg
+var demo8 = __webpack_require__(6794);
+// EXTERNAL MODULE: ./src/assets/img/demo/demo9.jpg
+var demo9 = __webpack_require__(2131);
+// EXTERNAL MODULE: ./src/assets/img/demo/rtl.png
+var rtl = __webpack_require__(1038);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/NavMenu.tsx
+const menu1=[{image:demo1/* default */.Z,path:'home-1',title:'01. Web Page Builder'},{image:demo2/* default */.Z,path:'home-2',title:'02. Time Tracker'},{image:demo3/* default */.Z,path:'home-3',title:'03. POS Software'},{image:demo4/* default */.Z,path:'home-4',title:'04. Password Manager'},{image:demo5/* default */.Z,path:'home-5',title:'05. HR Software',extraStyle:true}];const menu2=[{image:demo6/* default */.Z,path:'home-6',title:'06. Email Marketing'},{image:demo7/* default */.Z,path:'home-7',title:'07. Project Management'},{image:demo8/* default */.Z,path:'home-8',title:'08. SEO Software'},{image:demo9/* default */.Z,path:'home-9',title:'09. Social Media'}];const sections=[{id:'work',label:'Work'},{id:'counters',label:'Counter'},{id:'work-prosess',label:'Work Prosess'},{id:'system',label:'System'},{id:'tes',label:'Testimonial'}];const NavMenu=()=>{const{0:activeId,1:setActiveId}=(0,react.useState)('');(0,react.useEffect)(()=>{const handleScroll=()=>{const scrollPosition=window.scrollY+100;let newActiveId='';for(const section of sections){const element=document.getElementById(section.id);if(element){const offsetTop=element.offsetTop;const offsetHeight=element.offsetHeight;if(scrollPosition>=offsetTop&&scrollPosition<offsetTop+offsetHeight){newActiveId=section.id;break;}}}setActiveId(newActiveId);};window.addEventListener('scroll',handleScroll);return()=>window.removeEventListener('scroll',handleScroll);},[]);return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("ul",{id:"list-example"},/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"#"},"Home ",/*#__PURE__*/react.createElement(fa6/* FaAngleDown */.iUH,null)),/*#__PURE__*/react.createElement("div",{className:"tp-submenu"},/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:12},/*#__PURE__*/react.createElement("div",{className:"all-images-menu"},menu1.map((item,idx)=>/*#__PURE__*/react.createElement("div",{key:idx,className:"homemenu-thumb",style:item.extraStyle?{margin:'0 0 20px 0'}:{}},/*#__PURE__*/react.createElement("div",{className:"img1"},/*#__PURE__*/react.createElement("img",{src:item.image,alt:""})),/*#__PURE__*/react.createElement("div",{className:"homemenu-btn"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/multi/"+item.path},"Multi Page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null)),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/single/"+item.path,target:"_blank"},"One page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null))),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/"+item.path,className:"bottom-heading"},item.title)))),/*#__PURE__*/react.createElement("div",{className:"all-images-menu"},menu2.map((item,idx)=>/*#__PURE__*/react.createElement("div",{key:idx,className:"homemenu-thumb"},/*#__PURE__*/react.createElement("div",{className:"img1"},/*#__PURE__*/react.createElement("img",{src:item.image,alt:""})),/*#__PURE__*/react.createElement("div",{className:"homemenu-btn"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/multi/"+item.path},"Multi Page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null)),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/single/"+item.path,target:"_blank"},"One page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null))),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/"+item.path,className:"bottom-heading"},item.title))),/*#__PURE__*/react.createElement("div",{className:"homemenu-thumb",style:{margin:'0 0 20px 0'}},/*#__PURE__*/react.createElement("div",{className:"img1"},/*#__PURE__*/react.createElement("img",{src:rtl/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"text"},/*#__PURE__*/react.createElement("h2",null,"RTL")),/*#__PURE__*/react.createElement("div",{className:"homemenu-btn"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/multi/rtl"},"Multi Page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null)),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"header-btn1",to:"/single/rtl",target:"_blank"},"One page ",/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null))),/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/rtl",className:"bottom-heading"},"10. RTL Version"))))))),sections.map(_ref=>{let{id,label}=_ref;return/*#__PURE__*/react.createElement("li",{key:id},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{className:"list-group-item list-group-item-action "+(activeId===id?'active':''),to:"#"+id},label));})));};/* harmony default export */ var components_NavMenu = (NavMenu);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Navbar.tsx
+const Navbar=()=>{const{scrollY}=(0,useScrollEvent/* default */.Z)();return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("header",null,/*#__PURE__*/react.createElement("div",{className:"header-area header-area9 header-area-all d-none d-lg-block "+(scrollY>100&&'sticky'),id:"header"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{xs:12},/*#__PURE__*/react.createElement("div",{className:"header-elements"},/*#__PURE__*/react.createElement("div",{className:"site-logo home1-site-logo"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/multi/home-1"},/*#__PURE__*/react.createElement("img",{src:header_logo2/* default */.Z,alt:""}))),/*#__PURE__*/react.createElement("div",{className:"main-menu-ex main-menu-ex1"},/*#__PURE__*/react.createElement(components_NavMenu,null)),/*#__PURE__*/react.createElement("div",{className:"header-buttons"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"#",className:"theme-btn15"},"Get quip free now",' ',/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null)))))))))),/*#__PURE__*/react.createElement(components_MobileTop,null));};/* harmony default export */ var components_Navbar = (Navbar);
+
+/***/ }),
+
+/***/ 1827:
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  Head: function() { return /* reexport */ PageMeta/* Head */.F; },
+  "default": function() { return /* binding */ home_5; }
+});
+
+// EXTERNAL MODULE: ./src/components/layout/BasicLayout.tsx
+var BasicLayout = __webpack_require__(7935);
+// EXTERNAL MODULE: ./src/components/layout/Footer/index.tsx + 1 modules
+var Footer = __webpack_require__(7318);
+// EXTERNAL MODULE: ./node_modules/react/index.js
+var react = __webpack_require__(7294);
+// EXTERNAL MODULE: ./src/assets/img/icons/system-icon1.svg
+var system_icon1 = __webpack_require__(268);
+// EXTERNAL MODULE: ./src/assets/img/icons/system-icon2.svg
+var system_icon2 = __webpack_require__(2547);
+// EXTERNAL MODULE: ./src/assets/img/icons/system-icon3.svg
+var system_icon3 = __webpack_require__(7237);
+// EXTERNAL MODULE: ./src/assets/img/icons/system-icon4.svg
+var system_icon4 = __webpack_require__(9873);
+// EXTERNAL MODULE: ./src/assets/img/logo/span9.svg
+var span9 = __webpack_require__(9866);
+// EXTERNAL MODULE: ./src/assets/img/others/system9-img1.png
+var system9_img1 = __webpack_require__(1106);
+// EXTERNAL MODULE: ./src/assets/img/others/system9-img2.png
+var system9_img2 = __webpack_require__(4985);
+// EXTERNAL MODULE: ./src/assets/img/shapes/system-shape1.png
+var system_shape1 = __webpack_require__(3716);
+// EXTERNAL MODULE: ./src/assets/img/shapes/system-shape2.png
+var system_shape2 = __webpack_require__(2378);
+// EXTERNAL MODULE: ./src/assets/img/shapes/system-shape3.png
+var system_shape3 = __webpack_require__(6310);
+// EXTERNAL MODULE: ./src/assets/img/shapes/system-shape4.png
+var system_shape4 = __webpack_require__(8689);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(4160);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Container.js
+var Container = __webpack_require__(682);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Row.js
+var Row = __webpack_require__(4051);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Col.js
+var Col = __webpack_require__(1555);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Benefit.tsx
+const Benefit=()=>{return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"buy-sell-bottom2",id:"system"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:6,className:"m-auto text-center"},/*#__PURE__*/react.createElement("div",{className:"heading9"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:""})," eSoft Benefits"),/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"},"eSoft HR Use Of Benefits"))))),/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement("div",{className:"bg"},/*#__PURE__*/react.createElement(Row/* default */.Z,{className:"align-items-center"},/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3},/*#__PURE__*/react.createElement("div",{className:"box-area-all","data-aos":"flip-right","data-aos-duration":"900"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("img",{src:system_icon1/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"single-box heading7"},/*#__PURE__*/react.createElement("h5",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"Trade Local Currency")),/*#__PURE__*/react.createElement("div",{className:"space10"}),/*#__PURE__*/react.createElement("p",null,"With our intuitive interface and robust features, you buy, sell."))),/*#__PURE__*/react.createElement("div",{className:"space50"}),/*#__PURE__*/react.createElement("div",{className:"box-area-all box-area-all2","data-aos":"flip-right","data-aos-duration":"900"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("img",{src:system_icon2/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"single-box heading7"},/*#__PURE__*/react.createElement("h5",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"Largest Coin Offer")),/*#__PURE__*/react.createElement("div",{className:"space10"}),/*#__PURE__*/react.createElement("p",null,"Plus, our commitment to the security means that PayCoin.")))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:6},/*#__PURE__*/react.createElement("div",{className:"service1-main-images","data-aos":"zoom-out","data-aos-duration":"900"},/*#__PURE__*/react.createElement("div",{className:"main-img1"},/*#__PURE__*/react.createElement("img",{src:system9_img1/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"main-img2 animate1"},/*#__PURE__*/react.createElement("img",{src:system9_img2/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape1"},/*#__PURE__*/react.createElement("img",{src:system_shape1/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape2"},/*#__PURE__*/react.createElement("img",{src:system_shape2/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape3"},/*#__PURE__*/react.createElement("img",{src:system_shape3/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape4"},/*#__PURE__*/react.createElement("img",{src:system_shape4/* default */.Z,alt:""})))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3},/*#__PURE__*/react.createElement("div",{className:"box-area-all box-area-all3","data-aos":"flip-right","data-aos-duration":"900"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("img",{src:system_icon3/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"single-box heading7"},/*#__PURE__*/react.createElement("h5",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"Safe And Secure")),/*#__PURE__*/react.createElement("div",{className:"space10"}),/*#__PURE__*/react.createElement("p",null,"Trusted partner in the world of crypto trading Join us today."))),/*#__PURE__*/react.createElement("div",{className:"space50"}),/*#__PURE__*/react.createElement("div",{className:"box-area-all box-area-all4","data-aos":"flip-right","data-aos-duration":"900"},/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("img",{src:system_icon4/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"single-box heading7"},/*#__PURE__*/react.createElement("h5",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"Trade For Anywhere")),/*#__PURE__*/react.createElement("div",{className:"space10"}),/*#__PURE__*/react.createElement("p",null,"Resources designed to help navigate best the dynamic")))))))),/*#__PURE__*/react.createElement("div",{className:"space100"}));};/* harmony default export */ var components_Benefit = (Benefit);
+// EXTERNAL MODULE: ./node_modules/react-countup/build/index.js
+var build = __webpack_require__(7857);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Counter.tsx
+const Counter=()=>{return/*#__PURE__*/react.createElement("div",{className:"counters6",id:"counters"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3,xs:6},/*#__PURE__*/react.createElement("div",{className:"counter-box box1","data-aos":"zoom-out","data-aos-duration":"800"},/*#__PURE__*/react.createElement("h2",null,/*#__PURE__*/react.createElement("span",{className:"counter"},/*#__PURE__*/react.createElement(build/* default */.ZP,{end:16,suffix:" M+"})),' '),/*#__PURE__*/react.createElement("p",null,"Built With Elementor"))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3,xs:6},/*#__PURE__*/react.createElement("div",{className:"counter-box box2","data-aos":"zoom-out","data-aos-duration":"1000"},/*#__PURE__*/react.createElement("h2",null,/*#__PURE__*/react.createElement("span",{className:"counter"},/*#__PURE__*/react.createElement(build/* default */.ZP,{end:6.5,decimals:1,suffix:" K+"}))),/*#__PURE__*/react.createElement("p",null,"5 Star Reviews"))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3,xs:6},/*#__PURE__*/react.createElement("div",{className:"counter-box box3","data-aos":"zoom-out","data-aos-duration":"1100"},/*#__PURE__*/react.createElement("h2",null,/*#__PURE__*/react.createElement("span",{className:"counter"},/*#__PURE__*/react.createElement(build/* default */.ZP,{end:100,suffix:"+"}))),/*#__PURE__*/react.createElement("p",null,"5 Star Reviews"))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:3,xs:6},/*#__PURE__*/react.createElement("div",{className:"counter-box box4","data-aos":"zoom-out","data-aos-duration":"600"},/*#__PURE__*/react.createElement("h2",null,/*#__PURE__*/react.createElement("span",{className:"counter"},/*#__PURE__*/react.createElement(build/* default */.ZP,{end:16,suffix:"Sec."}))),/*#__PURE__*/react.createElement("p",null,"15 Second An Elementor"))))));};/* harmony default export */ var components_Counter = (Counter);
+// EXTERNAL MODULE: ./src/assets/img/bg/cta2-bg.png
+var cta2_bg = __webpack_require__(2048);
+// EXTERNAL MODULE: ./src/assets/img/others/cta2-main-img.png
+var cta2_main_img = __webpack_require__(8946);
+// EXTERNAL MODULE: ./src/assets/img/shapes/cta2-shape1.png
+var cta2_shape1 = __webpack_require__(1383);
+// EXTERNAL MODULE: ./src/assets/img/shapes/cta2-shape2.png
+var cta2_shape2 = __webpack_require__(2996);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/CTA.tsx
+const CTA=()=>{return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"cta2-area",style:{backgroundImage:"url("+cta2_bg/* default */.Z+")",backgroundPosition:'center',backgroundRepeat:'no-repeat',backgroundSize:'cover'}},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:6,className:"m-auto text-center"},/*#__PURE__*/react.createElement("div",{className:"headding2-w pbmit-heading-subheading animation-style2"},/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"},"Join 500,000+ SEO's Who Trust eSoft For Insights That Help Their Business Grow."),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement("p",{"data-aos":"fade-up","data-aos-duration":"800"},"eSoft has exceeded our expectations in every way. The ease with & which we can target specific audience segments has an transform."),/*#__PURE__*/react.createElement("div",{className:"space30"}),/*#__PURE__*/react.createElement("div",{className:"","data-aos":"fade-up","data-aos-duration":"1000"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/account",className:"theme-btn3"},"Get Started For Free"))))))),/*#__PURE__*/react.createElement("div",{className:"cta2-main-image"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:12},/*#__PURE__*/react.createElement("div",{className:"cta2-images"},/*#__PURE__*/react.createElement("div",{className:"img1"},/*#__PURE__*/react.createElement("img",{src:cta2_main_img/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape1"},/*#__PURE__*/react.createElement("img",{src:cta2_shape2/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("div",{className:"shape2"},/*#__PURE__*/react.createElement("img",{src:cta2_shape1/* default */.Z,alt:""}))))))));};/* harmony default export */ var components_CTA = (CTA);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-img1.png
+var hero9_img1 = __webpack_require__(5288);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-img2.png
+var hero9_img2 = __webpack_require__(9124);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-img3.png
+var hero9_img3 = __webpack_require__(9190);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-img4.png
+var hero9_img4 = __webpack_require__(5027);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-img5.png
+var hero9_img5 = __webpack_require__(30);
+// EXTERNAL MODULE: ./src/assets/img/hero/hero9-main.png
+var hero9_main = __webpack_require__(3401);
+// EXTERNAL MODULE: ./node_modules/react-icons/fa6/index.mjs
+var fa6 = __webpack_require__(6204);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Hero.tsx
+const heroImages=[{className:'image1',image:hero9_img1/* default */.Z},{className:'image2 shape-animaiton3',image:hero9_img2/* default */.Z},{className:'image3 shape-animaiton2',image:hero9_img3/* default */.Z},{className:'image4 animate1',image:hero9_img4/* default */.Z},{className:'image5',image:hero9_img5/* default */.Z},{className:'main-img',image:hero9_main/* default */.Z}];const Hero=()=>{return/*#__PURE__*/react.createElement("div",{className:"hero-area9"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,{className:"align-items-center"},/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:5},/*#__PURE__*/react.createElement("div",{className:"main-heading"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:"Span"})," Keep track of your employee data"),/*#__PURE__*/react.createElement("h1",{className:"text-anime-style-3"},"Effortless Employee Management For A Growing Businesses"),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement("p",null,"Managing your people is easy with Quip HR\u2019s user-friendly and mobile-ready HR software, discover key features via."),/*#__PURE__*/react.createElement("div",{className:"space30"}),/*#__PURE__*/react.createElement("div",{className:"buttons"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"/account",className:"theme-btn15"},"Get quip free now",' ',/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null)))))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:7},/*#__PURE__*/react.createElement("div",{className:"main-images"},heroImages.map((item,idx)=>/*#__PURE__*/react.createElement("div",{key:idx,className:item.className},/*#__PURE__*/react.createElement("img",{src:item.image,alt:"Hero image "+(idx+1)}))))))));};/* harmony default export */ var components_Hero = (Hero);
+// EXTERNAL MODULE: ./src/pages/single/home-5/components/Navbar.tsx + 2 modules
+var Navbar = __webpack_require__(6230);
+// EXTERNAL MODULE: ./src/assets/img/work/work-prosses7-img1.png
+var work_prosses7_img1 = __webpack_require__(7676);
+// EXTERNAL MODULE: ./src/assets/img/work/work-prosses7-img2.png
+var work_prosses7_img2 = __webpack_require__(9158);
+// EXTERNAL MODULE: ./src/assets/img/work/work-prosses7-img3.png
+var work_prosses7_img3 = __webpack_require__(4169);
+// EXTERNAL MODULE: ./src/assets/img/work/work-prosses7-img4.png
+var work_prosses7_img4 = __webpack_require__(3512);
+// EXTERNAL MODULE: ./src/assets/img/work/work-prosses7-img5.png
+var work_prosses7_img5 = __webpack_require__(9566);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Process.tsx
+const processItems=[{title:'Al-Powered Productivity',desc:'With an intuitive interface and powerful features, our platform simplifies collaboration, allowing you to effortlessly delegate.',image:work_prosses7_img1/* default */.Z,className:'left-top',duration:'800',col:6},{title:'View Work Your Way',desc:"Team's project management experience. Our robust suite & offers a unified hub an task allocation, collaboration, project.",image:work_prosses7_img2/* default */.Z,className:'right-top',duration:'1000',col:6},{title:'Search Anythings',desc:'With integrated file sharing & version control, your team a access manage',image:work_prosses7_img3/* default */.Z,className:'right-top',duration:'900',col:4},{title:'Team Collaboration',desc:'Our platform brings together task an boards, share calendars, document.',image:work_prosses7_img4/* default */.Z,className:'left-bottom',duration:'1200',col:4},{title:'Customized In Click',desc:'Empower your projects with a holistic workspace solution that a simplifies.',image:work_prosses7_img5/* default */.Z,className:'right-bottom',duration:'1200',col:4}];const Process=()=>{return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"space100"}),/*#__PURE__*/react.createElement("div",{className:"work-prosess9 sp _relative",id:"work-prosess"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:7,className:"m-auto text-center"},/*#__PURE__*/react.createElement("div",{className:"heading9"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:""})," eSoft Workforce"),/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"}," Empower Of HR Workforce")))),/*#__PURE__*/react.createElement("div",{className:"space30"}),/*#__PURE__*/react.createElement(Row/* default */.Z,null,processItems.map((item,idx)=>/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:item.col,key:idx},/*#__PURE__*/react.createElement("div",{className:"work-box-area "+item.className},/*#__PURE__*/react.createElement("div",{className:"single-box","data-aos":"zoom-in-up","data-aos-duration":item.duration},/*#__PURE__*/react.createElement("div",{className:"heading7"},/*#__PURE__*/react.createElement("h4",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},item.title)),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement("p",null,item.desc)),/*#__PURE__*/react.createElement("div",{className:"space40"}),/*#__PURE__*/react.createElement("div",{className:"image"},/*#__PURE__*/react.createElement("img",{src:item.image,alt:item.title}))))))))),/*#__PURE__*/react.createElement("div",{className:"space100"}));};/* harmony default export */ var components_Process = (Process);
+// EXTERNAL MODULE: ./src/assets/img/others/hr-solution-img.png
+var hr_solution_img = __webpack_require__(6557);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Solution.tsx
+const Solution=()=>{return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"hr-solutions",id:"hr-solution"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:7},/*#__PURE__*/react.createElement("div",{className:"image"},/*#__PURE__*/react.createElement("img",{src:hr_solution_img/* default */.Z,alt:""}))),/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:5},/*#__PURE__*/react.createElement("div",{className:"heading9"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:""})," HR Solution"),/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"},"Powerful Features For Effective HR Solutions"),/*#__PURE__*/react.createElement("div",{className:"space16"}),/*#__PURE__*/react.createElement("p",{"data-aos":"fade-left","data-aos-duration":"700"},"Experience a new level of efficiency with our all-in-one HR software solution. Our intuitive platform is built to simplify your workflow, automating tedious tasks and providing powerful tools for seamless HR management."),/*#__PURE__*/react.createElement("div",{className:"space30"}),/*#__PURE__*/react.createElement("div",{className:"","data-aos":"fade-left","data-aos-duration":"1000"},/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:"",className:"theme-btn15"},"Get quip free now",' ',/*#__PURE__*/react.createElement("span",null,/*#__PURE__*/react.createElement(fa6/* FaArrowRight */.Z1Y,null))))))))));};/* harmony default export */ var components_Solution = (Solution);
+// EXTERNAL MODULE: ./src/assets/img/icons/tes2-icon.png
+var tes2_icon = __webpack_require__(2614);
+// EXTERNAL MODULE: ./src/assets/img/logo/tes2-logo1.png
+var tes2_logo1 = __webpack_require__(722);
+// EXTERNAL MODULE: ./src/assets/img/logo/tes2-logo2.png
+var tes2_logo2 = __webpack_require__(1727);
+// EXTERNAL MODULE: ./src/assets/img/testimonial/tes2-img1.png
+var tes2_img1 = __webpack_require__(1798);
+// EXTERNAL MODULE: ./src/assets/img/testimonial/tes2-img2.png
+var tes2_img2 = __webpack_require__(4372);
+// EXTERNAL MODULE: ./node_modules/react-slick/lib/index.js
+var lib = __webpack_require__(6066);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Testimonial.tsx
+const TestimonialData=[{des:"\"I can't imagine managing our email campaigns a without eSoft. The simplicity of creating visually stunning emails combined with powerful automation tools has been a game-changer for our marketing team. Our engagement rates have soared.\"",image:tes2_img1/* default */.Z,logo:tes2_logo1/* default */.Z},{des:"\"eSoft has exceeded our expectations in every way. The ease with which we can target specific audience segments has an transformed our approach to email marketing. The automation features have saved us countless hours, allowing us to focus\"",image:tes2_img2/* default */.Z,logo:tes2_logo2/* default */.Z},{des:"\"I can't imagine managing our email campaigns a without eSoft. The simplicity of creating visually stunning emails combined with powerful automation tools has been a game-changer for our marketing team. Our engagement rates have soared.\"",image:tes2_img1/* default */.Z,logo:tes2_logo1/* default */.Z},{des:"\"eSoft has exceeded our expectations in every way. The ease with which we can target specific audience segments has an transformed our approach to email marketing. The automation features have saved us countless hours, allowing us to focus\"",image:tes2_img2/* default */.Z,logo:tes2_logo2/* default */.Z}];const Testimonial=()=>{const setting={slidesToShow:2,margin:30,slidesToScroll:1,dots:true,arrows:true,loop:true,centerPadding:'40px',responsive:[{breakpoint:769,settings:{arrows:false,centerMode:true,centerPadding:'40px',slidesToShow:1}},{breakpoint:480,settings:{arrows:false,centerMode:true,centerPadding:'40px',slidesToShow:1}}]};return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"tes9 sp",id:"tes"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,{className:"align-items-center"},/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:6,className:"text-center m-auto"},/*#__PURE__*/react.createElement("div",{className:"heading9"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:""})," Testimonials"),/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"},"Why Our Users Love Us")))),/*#__PURE__*/react.createElement("div",{className:"space60"}),/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:12},/*#__PURE__*/react.createElement(lib/* default */.Z,Object.assign({},setting,{className:"tes2-slider-all","data-aos":"fade-up","data-aos-duration":"900"}),TestimonialData.map((item,idx)=>/*#__PURE__*/react.createElement("div",{className:"px-1"},/*#__PURE__*/react.createElement("div",{key:idx,className:"single-slider"},/*#__PURE__*/react.createElement("ul",{className:"stars"},/*#__PURE__*/react.createElement("li",{style:{marginRight:'5px'}},/*#__PURE__*/react.createElement(fa6/* FaStar */.QJe,null)),/*#__PURE__*/react.createElement("li",{style:{marginRight:'5px'}},/*#__PURE__*/react.createElement(fa6/* FaStar */.QJe,null)),/*#__PURE__*/react.createElement("li",{style:{marginRight:'5px'}},/*#__PURE__*/react.createElement(fa6/* FaStar */.QJe,null)),/*#__PURE__*/react.createElement("li",{style:{marginRight:'5px'}},/*#__PURE__*/react.createElement(fa6/* FaStar */.QJe,null)),/*#__PURE__*/react.createElement("li",null,/*#__PURE__*/react.createElement(fa6/* FaStar */.QJe,null))),/*#__PURE__*/react.createElement("div",{className:"icon"},/*#__PURE__*/react.createElement("img",{src:tes2_icon/* default */.Z,alt:""})),/*#__PURE__*/react.createElement("p",null,item.des),/*#__PURE__*/react.createElement("div",{className:"single-slider-bottom"},/*#__PURE__*/react.createElement("div",{className:"headdding-area"},/*#__PURE__*/react.createElement("div",{className:"image"},/*#__PURE__*/react.createElement("img",{src:item.image,alt:""})),/*#__PURE__*/react.createElement("div",{className:"headding"},/*#__PURE__*/react.createElement("h5",null,/*#__PURE__*/react.createElement(gatsby_browser_entry/* Link */.rU,{to:""},"Pat Cummins")),/*#__PURE__*/react.createElement("p",null,"Ceo Biosynthesis"))),/*#__PURE__*/react.createElement("div",{className:"logo"},/*#__PURE__*/react.createElement("img",{src:item.logo,alt:""}))))))))))));};/* harmony default export */ var components_Testimonial = (Testimonial);
+// EXTERNAL MODULE: ./src/assets/img/shapes/home2-element1.png
+var home2_element1 = __webpack_require__(3769);
+// EXTERNAL MODULE: ./src/assets/img/shapes/home2-element2.png
+var home2_element2 = __webpack_require__(1608);
+// EXTERNAL MODULE: ./src/assets/img/work/work2-img1.png
+var work2_img1 = __webpack_require__(2918);
+// EXTERNAL MODULE: ./src/assets/img/work/work2-img2.png
+var work2_img2 = __webpack_require__(5656);
+// EXTERNAL MODULE: ./src/assets/img/work/work2-img3.png
+var work2_img3 = __webpack_require__(7895);
+// EXTERNAL MODULE: ./node_modules/react-bootstrap/esm/Tab.js
+var Tab = __webpack_require__(6841);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/components/Work.tsx
+const tabContents=[{title:'Create Engaging Campaigns',image:work2_img1/* default */.Z,duration:'800'},{title:'Automate Workflows',image:work2_img2/* default */.Z,duration:'1000'},{title:'Grow Your Reach',image:work2_img3/* default */.Z,duration:'1100'}];const Work=()=>{const{0:activeTab,1:setActiveTab}=(0,react.useState)('tab1');return/*#__PURE__*/react.createElement(react.Fragment,null,/*#__PURE__*/react.createElement("div",{className:"space100"}),/*#__PURE__*/react.createElement("div",{className:"work2 _relative",id:"work"},/*#__PURE__*/react.createElement(Container/* default */.Z,null,/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:6,className:"m-auto text-center"},/*#__PURE__*/react.createElement("div",{className:"heading9"},/*#__PURE__*/react.createElement("span",{className:"span","data-aos":"zoom-in-left","data-aos-duration":"700"},/*#__PURE__*/react.createElement("img",{src:span9/* default */.Z,alt:""})," Keep track of your employee data"),/*#__PURE__*/react.createElement("h2",{className:"text-anime-style-3"},"HRMS Software Will Be Your Organization Data Warehouse")))),/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:9,className:"m-auto text-center"},/*#__PURE__*/react.createElement("ul",{className:"nav nav-pills mb-3",id:"pills-tab",role:"tablist"},[1,2,3].map(num=>/*#__PURE__*/react.createElement("li",{className:"nav-item",role:"presentation",key:num},/*#__PURE__*/react.createElement("button",{className:"nav-link"+(activeTab==="tab"+num?' active':''),id:"tab"+num+"-tab",type:"button",role:"tab","aria-controls":"tab"+num,"aria-selected":activeTab==="tab"+num,onClick:()=>setActiveTab("tab"+num)},num)))))),/*#__PURE__*/react.createElement(Row/* default */.Z,null,/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:12},/*#__PURE__*/react.createElement(Tab/* default */.Z.Container,{activeKey:activeTab},/*#__PURE__*/react.createElement(Tab/* default */.Z.Content,null,[1,2,3].map(tabIndex=>/*#__PURE__*/react.createElement(Tab/* default */.Z.Pane,{key:tabIndex,eventKey:"tab"+tabIndex,id:"tab"+tabIndex},/*#__PURE__*/react.createElement(Row/* default */.Z,null,tabContents.map((item,i)=>/*#__PURE__*/react.createElement(Col/* default */.Z,{lg:4,key:i},/*#__PURE__*/react.createElement("div",{className:"tabs-box-item","data-aos":"fade-up","data-aos-duration":item.duration||'800'},/*#__PURE__*/react.createElement("h3",null,item.title),/*#__PURE__*/react.createElement("img",{src:item.image,alt:item.title})))))))))))),/*#__PURE__*/react.createElement("img",{className:"shape1",src:home2_element1/* default */.Z,alt:"shape1"}),/*#__PURE__*/react.createElement("img",{className:"shape2",src:home2_element2/* default */.Z,alt:"shape2"})),/*#__PURE__*/react.createElement("div",{className:"space40"}));};/* harmony default export */ var components_Work = (Work);
+// EXTERNAL MODULE: ./src/components/PageMeta.tsx + 1 modules
+var PageMeta = __webpack_require__(9819);
+;// CONCATENATED MODULE: ./src/pages/single/home-5/index.tsx
+
+
+
+
+
+
+
+
+
+
+
+
+const index = () => {
+  return /*#__PURE__*/react.createElement(react.Fragment, null, /*#__PURE__*/react.createElement(BasicLayout/* default */.Z, null, /*#__PURE__*/react.createElement(Navbar/* default */.Z, null), /*#__PURE__*/react.createElement(components_Hero, null), /*#__PURE__*/react.createElement(components_Work, null), /*#__PURE__*/react.createElement(components_Counter, null), /*#__PURE__*/react.createElement(components_Process, null), /*#__PURE__*/react.createElement(components_Benefit, null), /*#__PURE__*/react.createElement(components_Solution, null), /*#__PURE__*/react.createElement(components_Testimonial, null), /*#__PURE__*/react.createElement(components_CTA, null), /*#__PURE__*/react.createElement(Footer/* default */.Z, null)));
+};
+/* harmony default export */ var home_5 = (index);
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=component---src-pages-single-home-5-index-tsx-af420fb9ae70d1d48e72.js.map
